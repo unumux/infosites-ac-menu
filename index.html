@@ -7,45 +7,22 @@
     <link rel="stylesheet" href="styles/styles.min.css">
 </head>
 <body>
-    <div class="willow-layout">
-
-       <div class="willow-layout__row--no-margin-bottom">
-           <div class="willow-layout__column--12">
-               <header class="willow-page-header" role="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <header class="willow-page-header" role="banner">
                     <div class="willow-page-header__branding">
-                       <a class="willow-logo-link" href="/" aria-label="go to home page">
+                        <a class="willow-logo-link" href="/" aria-label="go to home page">
                             <img class="willow-logo-link__image" src="logo_unum_reverse.svg" alt="unum logo" />
-                       </a>
+                        </a>
                     </div>
-                    <!--<div class="willow-page-header__content-controls">
-                        <a class="willow-page-header__content-open" href="#">Menu</a>
-                        <a class="willow-page-header__content-close" href="#">Close</a>
-                    </div>
-                    <div class="willow-page-header__content">
-                        <div class="willow-page-header__navigation">
-                           <nav class="willow-primary-nav" role="navigation" aria-label="Primary Navigation">
-                               <h1 class="willow-primary-nav__heading sr-only">Primary Navigation</h1>
-                               <ul class="willow-primary-nav__list">
-                                   <li class="willow-primary-nav__item"><a class="willow-primary-nav__link willow-primary-nav__link--active " href="overview.html">Overview</a></li>
-                                   <li class="willow-primary-nav__item"><a class="willow-primary-nav__link" href="calculator.html">Calculator</a></li>
-                                   <li class="willow-primary-nav__item"><a class="willow-primary-nav__link" href="enrollment.html">Enrollment</a></li>
-                               </ul>
-                           </nav>
-                        </div>
-                    </div>-->
-               </header>
-           </div>
-       </div>
+                </header>
+            </div>
+        </div>
 
 
-       
-
-
-       <div class="willow-layout__row">
-           <div class="willow-layout__column--12">
-
-                
-
+        <div class="row">
+            <div class="col-lg-12">
                 <section class="willow-banner infosite-overview-banner" role="region">
 
                     <div class="infosite-cobrand-logo-placeholder">
@@ -54,115 +31,58 @@
                     </div>
 
                     <div class="infosite-banner-welcome">
-                        <h1 class="willow-banner__heading">Overview</h1>
+                        <h1 class="willow-banner__heading">Menu</h1>
                         <div class="willow-banner__content"> 
                             <div class="willow-styling-context">
-                                <p>Welcome to the infosite made just for Apples and Oranges Incorporated.</p>
+                                <p>Welcome to the infosite made just for ABC Company.</p>
                             </div>   
                         </div>
                     </div>
                     
                 </section>
+            </div>
+        </div>
 
 
-           </div>
-       </div>
-       <div class="willow-layout__row--grow">
+        <div class="row flex-grow">
+            <div class="col-lg-12">
+                <div class="willow-styling-context">
+
+                    <h2 class="infosite-h2">Unum Benefit Menu</h2>
+
+                    <p>This page connects more than one related infosites.  Please read the link descriptions to see what might apply to you.</p>
+                    <ul>
+                        <li class="enrollment-link-li"><a href="..\testLife" class="infosite-link">Term Life Insurance</a></li>
+                        <li class="enrollment-link-li"><a href="..\testSTD" class="infosite-link">Short Term Disability Insurance</a></li>
+                        <li class="enrollment-link-li"><a href="..\testLTD" class="infosite-link">Long Term Disability Insurance</a></li>
+
+                        <li class="enrollment-link-li"><a href="LifeADDEnrollmentForm.pdf" class="infosite-link with-pdf-icon" target="_blank">Enrollment Form</a></li>
+                        <li class="enrollment-link-li"><a href="..\_template_assets\showform.aspx?fn=1143-01" class="infosite-link with-pdf-icon" target=_blank"">Evidence of Insurability Form</a></li><!---->
+                    </ul>
+
+                </div>
+            </div>
+        </div>
 
 
-            <!--<nav class="willow-breadcrumbs" role="navigation" aria-label="Breadcrumb Navigation">
-                <h1 class="willow-breadcrumbs__heading sr-only">You are here:</h1>
-                <ol class="willow-breadcrumbs__list">
-                    <li class="willow-breadcrumbs__item"><a class="willow-breadcrumbs__link" href="" aria-label="">Return to Menu</a></li>
-                    <li class="willow-breadcrumbs__item">Term Life Insurance</li>
-                    <li class="willow-breadcrumbs__item willow-breadcrumbs__item--active">Overview</li>
-                </ol>
-            </nav>-->
-
-
-
-
-           <div class="willow-layout__column--12">
-               <main class="willow-page-content" role="main">
-                   <div class="willow-styling-context">
-
-                        <h2 class="overview-h1-subhead">Unum Benefit Menu</h2>
-
-                        <p>Familiarize yourself with the details of your plan.</p>
-                        <ul>
-
-                             <li class="enrollment-link-li"><a href="LifeADDHighlightSheet.pdf" class="with-pdf-icon" target="_blank">Plan Highlights</a></li>
-                             <li class="enrollment-link-li"><a href="LifeADDEnrollmentForm.pdf" class="with-pdf-icon" target="_blank">Enrollment Form</a></li>
-                             <li class="enrollment-link-li"><a href="..\_template_assets\showform.aspx?fn=1143-01" class="with-pdf-icon" target=_blank"">Evidence of Insurability Form</a></li>
-                             <!-- NOT FOR USE IN: CA, CT, FL, IN, ME, MD, MA, MN, NH, NJ, NY, VT, VA) -->
-                             <!--<li><a class="pdficon" href="..\_template_assets\showform.aspx?fn=CS-1110" target="_blank">Beneficiary Designation Form (CS-1110)</a></li>-->
-                        </ul>
-
-                        <!--<div class="infosite-row">
-                            <div class="infosite-colx">
-                                <h1 class="overview-h1">What would your family do without your income?</h1>
-                                <h2 class="overview-h1-subhead">Unum's Term Life<span class="ADDcontent"> and Accidental Death &amp; Dismemberment (AD&amp;D)</span> Insurance can help.</h2>
-                            </div>
-                        </div>
-
-
-                        <div class="infosite-row">
-                            <div class="infosite-col">
-                                <h2 class="infosite-h2">Better prepared for the future</h2>
-                                <p>Jarrod and Amy have two careers, two children, two daycare payments and a two-story house on the lake. If either one dies prematurely, one paycheck won't keep the family afloat. They have basic life insurance at work, but they want enough coverage to meet their actual needs.</p>
-                                <p>EN-1083 LifeADD</p>
-                                <p>EN-1080 Life</p>
-                            </div>
-                            
-                            <div class="infosite-col">
-                                <h2 class="infosite-h2">What happens after you're gone?</h2>
-                                <p>If a primary wage earner died:<sup>1</sup></p>
-                                <p><img src="piggy200c.png" alt="piggy bank" class="piggy"><span class="infosite-orange infosite-orange--large">38%</span> of Americans believe they would feel the financial impact within one month.</p>
-                                <ul class="overview-less-left-padding">
-                                    <li class="list-item-spacer"><span class="infosite-orange">51%</span> would feel the financial impact within six months.</li>
-                                    <li>Only <span class="infosite-orange">24%</span> would take a year or more to feel the impact.</li>
-                                </ul>
-                            </div>
-                        </div>-->
-                            
-                            
-                            
-                       
-
-
-                        
-
-
-                       
-                   </div>
-               </main>
-           </div>
-       </div>
-       <div class="willow-layout__row">
-           <div class="willow-layout__column--12">
-               <footer class="willow-page-footer" role="contentinfo">
-                  <div class="willow-page-footer__branding">
-                       <a class="willow-logo-link" href="/" aria-label="go to home page">
+        <div class="row">
+            <div class="col-lg-12">
+                <footer class="willow-page-footer" role="contentinfo">
+                    <div class="willow-page-footer__branding">
+                        <a class="willow-logo-link" href="/" aria-label="go to home page">
                             <img class="willow-logo-link__image" src="logo_unum_reverse.svg" alt="unum logo" />
-                       </a>
-                  </div>
-                  <div class="willow-page-footer__navigation">
-                       <nav class="willow-footer-nav" role="navigation" aria-label="Footer Navigation">
-                          <h1 class="willow-footer-nav__heading sr-only">Footer Navigation</h1>
-                          <ul class="willow-footer-nav__list">
-                              <li class="willow-footer-nav__item color-white">Overview</li>
-                              <li class="willow-footer-nav__item"><a class="willow-footer-nav__link" href="calculator.html" aria-label="Calculator">Calculator</a></li>
-                              <li class="willow-footer-nav__item"><a class="willow-footer-nav__link" href="enrollment.html" aria-label="Enrollment">Enrollment</a></li>
-                          </ul>
-                       </nav>
-                  </div>
-                  <small class="willow-page-footer__copyright">&copy; <script>document.write(new Date().getFullYear())</script> Unum Group. All rights reserved.  Unum is a registered trademark and marketing brand of Unum Group and its insuring subsidiaries.</small>
+                        </a>
+                    </div>
 
-                  <small class="willow-page-footer__copyright footer-extra-links"><a class="willow-footer-nav__link" href="" aria-label="">Legal</a> | <a class="willow-footer-nav__link" href="" aria-label="">Privacy</a> | <a class="willow-footer-nav__link" href="" aria-label="">unum.com</a></small>
-               </footer>
-           </div>
-       </div>
+                    <small class="willow-page-footer__copyright">&copy; <script>document.write(new Date().getFullYear())</script> Unum Group. All rights reserved.  Unum is a registered trademark and marketing brand of Unum Group and its insuring subsidiaries.</small>
+    
+                    <small class="willow-page-footer__copyright footer-extra-links"><a class="willow-footer-nav__link" href="" aria-label="">Legal</a> | <a class="willow-footer-nav__link" href="" aria-label="">Privacy</a> | <a class="willow-footer-nav__link" href="" aria-label="">unum.com</a></small>
+                </footer>
+            </div>
+        </div>
+
+
     </div>
-    <script src="scripts/site.min.js"></script>
+    <!--<script src="scripts/site.min.js"></script>-->
 </body>
 </html>
